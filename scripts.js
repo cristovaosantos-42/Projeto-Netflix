@@ -2,6 +2,7 @@ let botaoSom = document.querySelector(".botao-som");
 let video = document.querySelector(".video");
 let botao = document.querySelector(".link-info")
 let modal = document.querySelector(".modal")
+let audio = document.querySelector(".audio")
 
 
 
@@ -23,4 +24,12 @@ function mostrarModal(){
 
 function esconderModal(){
   modal.style.display = "none"
+}
+
+// tocar tundum
+
+window.addEventListener("click", tocarAudio)
+
+function tocarAudio(){
+  audio.play()
 }
