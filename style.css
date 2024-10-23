@@ -110,3 +110,9 @@ video {
   width: 60%;
   color: white;
 }
+
+@media screen and (max-width: 900px){
+  .customers-list{
+    display: block;
+  }
+}
